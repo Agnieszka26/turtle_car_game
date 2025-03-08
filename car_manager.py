@@ -1,7 +1,7 @@
 from random import choice, randint
 from turtle import Turtle
 
-COLORS = ["red", "orange", "yellow", "green", "blue", "purple"]
+COLORS = ["indian red", "indian red", "yellow", "green yellow","cyan", "midnight blue", "deep pink"]
 STARTING_MOVE_DISTANCE = 5
 MOVE_INCREMENT = 10
 START_X = 300

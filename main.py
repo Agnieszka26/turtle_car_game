@@ -20,10 +20,12 @@ while game_is_on:
     screen.update()
     car_manager.create_car()
     car_manager.move_car()
+
 #detect the collision with car
     for car in car_manager.cars:
         if player.distance(car) <25:
             game_is_on=False
+            scoreboard.handle_game_over()
 
 #detect reach FINISH_LINE
     if player.ycor() >= FINISH_LINE:
